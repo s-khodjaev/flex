@@ -3,19 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="main.css" />
     <title>Flexbox Crash Course</title>
   </head>
   <body>
-    <header>
-      <nav id="main-nav">
-        <div class="logo">FlexBox</div>
-        <ul class="nav-list">
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Flexbox</div>
+        <ul class="nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1>Flexbox Crash Course</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+            explicabo excepturi vero ipsum cum, deleniti ex aliquid pariatur
+            repellat, corrupti veniam assumenda optio eaque modi ullam at hic
+            perferendis totam!
+          </p>
+        </div>
+        <img src="grid.svg" alt="" />
+      </div>
     </header>
+
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt-v"></i> Alignment & Space</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            commodi perferendis ducimus sint voluptatibus nostrum praesentium.
+            Dolores laudantium et quibusdam.
+          </p>
+        </div>
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt"></i> Tricky Positioning</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            commodi perferendis ducimus sint voluptatibus nostrum praesentium.
+            Dolores laudantium et quibusdam.
+          </p>
+        </div>
+        <div class="box">
+          <h2><i class="fas fa-mobile"></i> Responsive Design</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            commodi perferendis ducimus sint voluptatibus nostrum praesentium.
+            Dolores laudantium et quibusdam.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
